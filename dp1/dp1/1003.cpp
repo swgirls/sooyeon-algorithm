@@ -34,4 +34,8 @@ int main()
 
 	for (int i = 0; i < t; i++)
 		cout << num_zero[num[i]] << " " << num_one[num[i]] << endl;
+
+	delete[] num_zero;
+	delete[] num_one;
+	return 0;
 }
